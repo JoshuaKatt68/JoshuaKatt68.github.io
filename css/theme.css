@@ -19,6 +19,9 @@ body {
 	font-weight: 400;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #222; 
+	user-select: none;
+	
+
 }
 
 /* Typography
@@ -46,8 +49,10 @@ p {
 
 h1 {
 	color: rgb(155, 0, 0);
-
 	font-weight: bold;
+	font-family: "franchise";
+	src: url("/police/Franchise.ttf");
+	font-size: 70px;
 }
 a {
 	color: #1EAEDB; 
@@ -132,7 +137,7 @@ hr {
 }
 
 .navigation-bar .logo{
-	max-width: 180px;
+	max-width: 220px;
 	display: inline-block;
 	padding: 1rem;
 }
@@ -145,6 +150,8 @@ hr {
 
 .navigation-bar nav ul li{
 	display: inline-block;
+	margin-right: 20px;
+	font-size: 20px;
 }
 
 .navigation-bar nav a{
@@ -198,10 +205,13 @@ hr {
 }
 
 .team .team-icon {
-	max-width: 16px;
+	max-width: 30px;
 }
 
+.icon-rs{
+	max-width: 50px;
 
+}
 /* Hover */
 
 .hover-outer-box {
@@ -305,6 +315,11 @@ hr {
 
 .contact .col-md {
 	padding: 1rem;
+}
+
+.liensa {
+	margin-left: 900px;
+	margin-top: -100px;
 }
 
 /* forms */
